@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.top-nav {
+    display: flex;
+    background-color: #007D9C;
+    width: 100%;
+}
+.logo {
+    width: 50%;
+}
+.menu {
+    width: 50%;
+    height: 100%
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0px;
+}
+.menu ul li {
+    padding: 12px;
+    align-items: center;
+   
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: #E8E8E8FF;
+    display: inline-flex; 
+   }
+
+.menu ul li:hover{
+
+border-bottom: 2px solid white;
+
+    
+
+}
